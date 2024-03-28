@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 export default function ButtonUsage() {
   return <Button variant="contained"
   sx={{
-    margin: "10px",
+    margin: "2px",
     backgroundColor: "#e6ecf3",
     color: "#1d2b34"
   }}>Hello world</Button>;

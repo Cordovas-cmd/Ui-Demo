@@ -57,6 +57,20 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+nav{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navLink {
+  width: 20%;
+  display: flex;
+  background: rgba(235, 235, 238, 0.144);
+  justify-content: center;
+  color:#1a1a1a;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #476d8d;

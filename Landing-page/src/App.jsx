@@ -5,6 +5,7 @@ import './App.css'
 import ButtonUsage from './components/Button'
 import BasicGrid from './components/GridLayout'
 // import ClippedDrawer from './components/LeftSidebar.jsx';
+import Navbar from './components/Navbar'
 
 
 // function App() {
@@ -28,6 +29,7 @@ function App() {
   return (
     
      <>
+     <Navbar />
     {/* <ClippedDrawer /> */}
     <BasicGrid />
     {/* <ButtonUsage /> */}
