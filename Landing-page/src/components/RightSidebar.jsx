@@ -9,6 +9,7 @@ import brain from "../assets/brain.png"
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    display: "flex",
     ...theme.typography.body2,
     padding: theme.spacing(1),
     height: 200,
@@ -42,13 +43,12 @@ export default function RightSideBar() {
     return (
         // <SidebarStyled>
 
-<Box sx={{ flexGrow: 1 }}>
+<Box sx={{ flexGrow: 1, 
+display: "flex",
+}}>
       <Grid container spacing={1}>
         <Grid container item spacing={3}>
-          <FormRow
-          sx={{
-            height: "500px"
-          }} />
+          <FormRow />
         </Grid>
         <Grid container item spacing={3}>
           <FormRow />

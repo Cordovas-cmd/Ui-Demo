@@ -11,7 +11,7 @@ export default function GridLayout() {
     // const classes = useStyles()
     return (
       <Box sx={{ 
-        flexGrow: 1,
+        flexGrow: 1
       }}>
 
         <Grid container spacing={3}>

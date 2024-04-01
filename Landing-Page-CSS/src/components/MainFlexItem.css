@@ -1,0 +1,34 @@
+.MainContainer {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items:center; */
+    height: 100%;
+    width: 100%;
+   
+    margin-bottom: 20px;
+    border-radius: 2;
+}
+
+.FirstMain {
+    background-image: url("../assets/brain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    margin-bottom: 20px;
+    
+}
+
+.SecondMain {
+    display: flex;
+    flex-direction: row;
+    height: 18%;
+    background-color: aquamarine;
+    justify-content: space-around;
+}
+
+.FirstCell, .SecondCell {
+    display: flex;
+    width: 45%;
+    background-color: beige;
+}

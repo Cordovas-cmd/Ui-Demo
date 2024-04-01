@@ -1,0 +1,19 @@
+.RightSidebar{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+}
+
+
+.firstBox {
+    background-color: blue;
+}
+.secondBox {
+background-color: aquamarine;
+}
+.thirdBox {
+background-color: blueviolet;
+}
+.fourthBox {
+background-color: beige;
+}
