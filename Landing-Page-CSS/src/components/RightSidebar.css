@@ -1,19 +1,35 @@
 .RightSidebar{
     display: flex;
-    width: 15%;
+    width: 14%;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
+.firstBox, .secondBox, .thirdBox, .fourthBox{
+    height: 28%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.404);
+}
 
 .firstBox {
-    background-color: blue;
+    background-color: #f5f8fe;
+    
 }
+
 .secondBox {
-background-color: aquamarine;
+background-color: #c5cfd9;
+height: 10%;
 }
+
 .thirdBox {
-background-color: blueviolet;
+background-color: #c7ced9;
 }
+
 .fourthBox {
-background-color: beige;
+background-color: #e5e8f0;
+}
+
+.firstBox:hover, .secondBox:hover, .thirdBox:hover , .fourthBox:hover {
+transform: scale(1.1)
 }

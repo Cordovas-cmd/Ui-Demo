@@ -5,6 +5,8 @@ import * as React from 'react';
 // import Grid from '@mui/material/Grid';
 // import { Typography } from '@mui/material';
 // import brain from "../assets/brain.png"
+import chart from "../assets/mainChart.png"
+import chart2 from "../assets/mainChart2.png"
 import "./MainFlexItem.css"
 
 
@@ -72,8 +74,19 @@ export default function MainFlexItem() {
 
             <section className="SecondMain">
 
-                <p className="FirstCell">hello</p>
-                <p className='SecondCell'>hello</p>
+                <div className="FirstCell">
+                    <h2>Hello</h2>
+                    <img className='chart1' src={chart} alt=""></img>
+                    {/* <div className="chart1"></div> */}
+                    </div>
+
+                    
+                <div className="SecondCell">
+                    <h2>Hello</h2>  
+                    <img className='chart2' src={chart2} alt=""></img>
+                    {/* <div className="chart2"></div> */}
+                    </div>
+                
             </section>
         </main>
 
