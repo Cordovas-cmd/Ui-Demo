@@ -9,7 +9,6 @@ export default function FlexContainer () {
     <div className="container">
       <LeftSidebar />
       <MainFlexItem  />
-      {/* <ButtonUsage /> */}
       <RightSideBar />
     </div>
   )

@@ -11,18 +11,3 @@ export default function ButtonUsage() {
   }}>Hello world</button>;
 }
 
-
-
-// import * as React from 'react';
-// import { Button as BaseButton, buttonClasses } from '@mui/base/Button';
-// import { styled } from '@mui/system';
-// import Stack from '@mui/material/Stack';
-
-// export default function UnstyledButtonsIntroduction() {
-//   return (
-//     <Stack spacing={2} direction="row">
-//       <Button>Button</Button>
-//       <Button disabled>Disabled</Button>
-//     </Stack>
-//   );
-// }

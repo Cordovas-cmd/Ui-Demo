@@ -46,22 +46,13 @@ height: 100vh;
 }
 
 
-/* .container {
-  width: 100%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-gap: 1rem;
-} */
+
 .container {
   display: flex;
   width: 100%;
-  /* align-items: center; */
   justify-content: space-between;
   height: 100%;
-  /* display: grid; */
-  /* grid-template-columns: 30% 30% 30%; */
-  /* grid-gap: 1rem; */
+ 
 }
 
 .item {
