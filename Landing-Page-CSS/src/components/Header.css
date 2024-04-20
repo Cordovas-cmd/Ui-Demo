@@ -1,0 +1,15 @@
+.MuiPaper-root{
+  background-color: transparent;
+  border-radius: 50px;
+}
+.MuiToolbar-root {
+    background-color: #f5f8fe;
+  color: black;
+  border-radius: 50px;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin:  0 10px;
+}

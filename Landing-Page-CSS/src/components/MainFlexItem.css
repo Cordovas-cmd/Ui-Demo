@@ -25,6 +25,7 @@
     height: 25%;
     background-color: #e6e9f1;
     justify-content: space-around;
+    border-radius: 30px;
 }
 
 .FirstCell, .SecondCell {
@@ -47,6 +48,16 @@ h2 {
     height: 100%;
     width: 70%;
     height: 100%;
-  
 
+}
+
+#chart1 {
+    background-color: darkblue;
+}
+
+
+
+.MuiChartsGrid-root {
+    background-color: aquamarine;
+    color: blueviolet;
 }

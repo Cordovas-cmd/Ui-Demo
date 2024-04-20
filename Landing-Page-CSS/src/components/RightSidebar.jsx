@@ -1,6 +1,7 @@
 import * as React from 'react';
 import "./RightSidebar.css"
 import brain from "../assets/brain.png"
+import SimpleBarChart from './Charts/BarChart';
 
 
 export default function RightSideBar() {
@@ -12,6 +13,7 @@ export default function RightSideBar() {
 
   <section className="firstBox">
       <p>Test</p>
+      <SimpleBarChart />
   </section>
   <section className="secondBox">
       <p>Test</p>
